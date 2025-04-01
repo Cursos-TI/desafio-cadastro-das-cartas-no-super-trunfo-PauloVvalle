@@ -1,9 +1,12 @@
 #include <stdio.h>
 
 int main(){
-    int populacao, numero_pontos_turisticios;
+    int populacao, numero_pontos_turisticios, carta_atual;
     char estado[50], cidade[50], codigo_carta[5];
     float area, pib;
+
+    printf("Digite o numero da carta atual: \n");
+    scanf("%d", &carta_atual);
 
     printf("Digite o codigo da carta: \n");
     scanf("%s", codigo_carta);
@@ -26,7 +29,8 @@ int main(){
     printf("Digite a quantidade de pontos turisticos: \n");
     scanf("%d", &numero_pontos_turisticios);
     
-    printf("\n");
+    printf("******************************************************\n");
+    printf("carta: %d\n", carta_atual);
     printf("carta: %s\n", codigo_carta);
     printf("estado: %s\n", estado);
     printf("cidade: %s\n", cidade);
@@ -34,9 +38,12 @@ int main(){
     printf("Área: %.2f km²\n", area);
     printf("PIB: %.2f $\n", pib);
     printf("Pontos turisticos: %d\n", numero_pontos_turisticios);
-    printf("\n");
+    printf("******************************************************\n");
 
     printf("Agora crie sua nova carta!\n");
+
+    printf("Digite o numero da carta atual: \n");
+    scanf("%d", &carta_atual);
 
     printf("Digite o codigo da carta: \n");
     scanf("%s", codigo_carta);
@@ -58,8 +65,9 @@ int main(){
 
     printf("Digite a quantidade de pontos turisticos: \n");
     scanf("%d", &numero_pontos_turisticios);
-
-    printf("\n");
+    
+    printf("******************************************************\n");
+    printf("carta: %d\n", carta_atual);
     printf("carta: %s\n", codigo_carta);
     printf("estado: %s\n", estado);
     printf("cidade: %s\n", cidade);
@@ -67,6 +75,7 @@ int main(){
     printf("Área: %.2f km²\n", area);
     printf("PIB: %.2f $\n", pib);
     printf("Pontos turisticos: %d\n", numero_pontos_turisticios);
+    printf("******************************************************\n");
 
     return 0;
 }
