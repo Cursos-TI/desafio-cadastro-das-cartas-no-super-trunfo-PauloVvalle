@@ -8,10 +8,10 @@ int main(){
     printf("Digite o numero da carta atual: \n");
     scanf("%d", &carta_atual);
 
-    printf("Digite o codigo da carta: \n");
+    printf("Digite o codigo da carta(A01): \n");
     scanf("%s", codigo_carta);
 
-    printf("Digite a classe do estado: \n");
+    printf("Digite a classe do estado(A): \n");
     scanf("%s", estado);
 
     printf("Digite o nome da cidade: \n");
@@ -50,10 +50,10 @@ int main(){
     printf("Digite o numero da carta atual: \n");
     scanf("%d", &carta_atual);
 
-    printf("Digite o codigo da carta: \n");
+    printf("Digite o codigo da carta(B01): \n");
     scanf("%s", codigo_carta);
 
-    printf("Digite a classe do estado: \n");
+    printf("Digite a classe do estado(B): \n");
     scanf("%s", estado);
 
     printf("Digite o nome da cidade: \n");
